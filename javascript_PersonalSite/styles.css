@@ -1,0 +1,79 @@
+body
+{
+  text-align: center;
+  background-color: #393e46;
+
+}
+h1
+{
+  font-size:6rem;
+  font-family: 'Bangers', cursive;
+  color: #b83b5e;
+  margin: 0 0 10px;
+}
+h2
+{
+  font-size:3rem;
+  font-family: 'Bangers', cursive;
+  color: #e36387;
+  margin-bottom: 55px;
+}
+.pane
+{
+  display:inline-flex;
+  width:35%;
+}
+.dice
+{
+  display: block;
+  margin:0 auto;
+  height:50%;
+  width:50%;
+
+}
+
+.player1,.player2
+{
+  margin:0 auto;
+  font-size: 2rem;
+  font-family: 'Aladin', cursive;
+  color: #3ca59d;
+}
+
+.btn
+{
+  font-size: 1.2rem;
+  color:#2bb2bb;
+  letter-spacing: 0.2em;
+  display:block;
+  margin:0 auto;
+  background-color: transparent;
+  border-color:#2bb2bb;
+  border-radius: 24px;
+}
+.btn:focus
+{
+  outline: none;
+}
+
+.footer
+{
+  margin-top: 10%;
+  color: #f4f6ff
+}
+
+.name
+{
+  font-size:18px;
+  color: #4f8a8b;
+}
+
+@media (max-width: 992px)
+{
+  .btn
+  {
+    line-height: 2;
+    font-size:12px;
+    margin-top:25px;
+  }
+}
